@@ -1,0 +1,81 @@
+body{
+  /*background-image: url("Image/bg.jpg");
+  text-align: center;
+
+}
+
+h1{
+  color: black;
+}
+
+/* @media (max-width: 600px){
+    body{
+       background-image: url("Image/bg.jpg");
+    }
+    h1 {
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+}
+@media (max-width: 601px) and (max-width: 1024px){
+    h1 {
+        font-size: 32px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1025px){
+    body{
+       background-image: url("Image/bg.jpg");
+    }
+    h1 {
+        font-size: 48px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+} */
+  /* Color each language element */
+  #pic1 {background-color: #DF4638;}
+  #pic2 {background-color: #8DAD53;}
+  #pic3 {background-color: #6D4596;}
+  #pic4 {background-color: #F7CC77;}
+  #pic5 {background-color: #2454DB;}
+  #pic6 {background-color: #DB4260;}
+  #pic7 {background-color: #E88A9F;}
+  #pic8 {background-color: #7157AD;}
+  #pic9 {background-color: #DF4638;}
+  #pic10 {background-color: #8DAD53;}
+  #pic11 {background-color: #6D4596;}
+  #pic12 {background-color: #F7CC77;}
+  #pic13 {background-color: #2454DB;}
+  #pic14 {background-color: #DB4260;}
+  #pic15 {background-color: #E88A9F;}
+  #pic16 {background-color: #7157AD;}
+  
+
+
+
+
+
+  /* rem is the Font size of the root element. */
+
+
+  .cell {
+      font-size: 1.7rem;
+      font-weight: bold;
+      color: white;
+      text-shadow: 2px 2px rgba(0,0,0,0.2);
+      text-align: center;
+  }
+
+#grid {
+  display: grid;
+    grid-template-rows: repeat(4, .1fr);
+    grid-template-columns: repeat(4, .1fr);
+}
