@@ -5,54 +5,71 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css" type="text/css" />
 
 </head>
 
 <body>
- <h1>The Match Game</h1>
-                        <div class= imagecontainer>
+  <h1>The Match Game</h1>
+  <div class=imagecontainer>
+    <div>
+      <img class="game-card-img" id="5" src="img/q.jpg" onclick="changePicture(this);" alt="pic 1" />
+    </div>
+    <div>
+      <img class="game-card-img" id="3" src="img/q.jpg" onclick="changePicture(this);" alt="pic">
+    </div>
+    <div>
+      <img class="game-card-img" id="2" src="img/q.jpg" onclick="changePicture(this);" alt="cake2">
+    </div>
+    <div>
+      <img class="game-card-img" id="1" src="img/q.jpg" onclick="changePicture(this);" alt="cake3">
+    </div>
+    <div>
+      <img class="game-card-img" id="8" src="img/q.jpg" onclick="changePicture(this);" alt="cake4">
+    </div>
+    <div>
+      <img class="game-card-img" id="6" src="img/q.jpg" onclick="changePicture(this);" alt="cake5">
+    </div>
+    <div>
+      <img class="game-card-img" id="7" src="img/q.jpg" onclick="changePicture(this);" alt="cake6">
+    </div>
+    <div>
+      <img class="game-card-img" id="4" src="img/q.jpg" onclick="changePicture(this);" alt=cake7">
+    </div>
 
-                          <div>
-                    <img class="game-card-img" src="img/1.jpg" alt="pic 1">
-                          </div>
-                          <div>
-                    <img class="game-card-img" src="img/2.jpg" alt="pic">
-                      </div>
-                          <div>
-                    <img class="game-card-img" src="img/3.jpg" alt="cake2">
-                            </div>
-                            <div>
-                    <img class="game-card-img" src="img/4.jpg" alt="cake3">
-                              </div>
-                              <div>     
-                    <img class="game-card-img" src="img/5.jpg" alt="cake4">
-                                </div>
-                                <div>
-                    <img class="game-card-img" src="img/6.jpg" alt="cake5"> 
-                                  </div>
-                                  <div>
-                    <img class="game-card-img" src="img/7.jpg" alt="cake6">  
-                                    </div>
-                      <div>
+    <div>
+      <img class="game-card-img" id="2" src="img/q.jpg" onclick="changePicture(this);" alt="pic 1">
+    </div>
+    <div>
+      <img class="game-card-img" id="7" src="img/q.jpg" onclick="changePicture(this);" alt="pic">
+    </div>
+    <div>
+      <img class="game-card-img" id="3" src="img/q.jpg" onclick="changePicture(this);" alt="cake2">
+    </div>
+    <div>
+      <img class="game-card-img" id="6" src="img/q.jpg" onclick="changePicture(this);" alt="cake3">
+    </div>
+    <div>
+      <img class="game-card-img" id="8" src="img/q.jpg" onclick="changePicture(this);" alt="cake4">
+    </div>
+    <div>
+      <img class="game-card-img" id="4" src="img/q.jpg" onclick="changePicture(this);" alt="cake5">
+    </div>
+    <div>
+      <img class="game-card-img" id="5" src="img/q.jpg" onclick="changePicture(this);" alt="pumpkin">
+    </div>
+    <div>
+      <img class="game-card-img" id="1" src="img/q.jpg" onclick="changePicture(this);" alt="pumpkin">
+    </div>
+  </div>
 
-                    <img class="game-card-img" src="img/8.jpg" alt =cake7"> 
-                        </div>
 
-                      <div>
-
-                    <img class="game-card-img" src="img/9.jpg" alt="cake8">                        
-
-                        </div>
-                        </div>
-
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <button id="reset-button">Reset Game</button>
+  
+    <button id="button" onclick="resetGame();">Reset Game</button>
+    <p id="score">Clicks: 0</p>
+    <p id = "ins"> Instruction: Click on the cards to reveal the pictures. Try to match the pictures in the least amount of clicks.</p>
+    
 </body>
 
 </html>
