@@ -11,28 +11,28 @@ click2 = null;
 function changePicture(object) {
   num=object.id;
   if (num == 1) {
-    object.src = "/img/1.jpg";
+    object.src = "img/1.jpg";
   }
   if (num == 2) {
-    object.src = "/img/2.jpg";
+    object.src = "img/2.jpg";
   }
   if (num == 3) {
-    object.src = "/img/3.jpg";
+    object.src = "img/3.jpg";
   }
   if (num == 4) {
-    object.src = "/img/4.jpg";
+    object.src = "img/4.jpg";
   }
   if (num == 5) {
-    object.src = "/img/5.jpg";
+    object.src = "img/5.jpg";
   }
   if (num == 6) {
-    object.src = "/img/6.jpg";
+    object.src = "img/6.jpg";
   }
   if (num == 7) {
-    object.src = "/img/7.jpg";
+    object.src = "img/7.jpg";
   }
   if (num == 8) {
-    object.src = "/img/8.jpg";
+    object.src = "img/8.jpg";
   }
   flipSquare(object);
 }
